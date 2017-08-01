@@ -6,5 +6,6 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.1.0-RC1")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-osgi" % "0.9.1")
 
+resolvers += Classpaths.sbtPluginReleases
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.0.4")
 
